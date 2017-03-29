@@ -14,8 +14,8 @@
 <body>
 	<div id="main" style="width: 100%;height: 680px;"></div>
     <div class="link">
-       <div><a href="<?php echo U('Register/register'); ?>">用户注册量</a></div>
-       <div><a href="<?php echo U('Map/business'); ?>">业务量</a></div>
+       <div><a href="<?php echo U('Register/register',array('value'=>'chongqing','xian'=>'重庆市')); ?>">用户注册量</a></div>
+       <div><a href="<?php echo U('Business/business',array('value'=>'chongqing','xian'=>'重庆市')); ?>">业务量</a></div>
     </div>
 </body>
 <script src="/screen/Public/Home/js/echarts.min.js"></script>

@@ -3,14 +3,15 @@ namespace Home\Controller;
 use Think\Controller;
 class RegionController extends Controller {
     public function region(){
-        $xian=$_GET['value'];
-
+        $value=$_GET['value'];
+        $xian=$_GET['xian'];
 
        //echo $xian;die;
        // echo U('Map/fulin1','value='.$value);
 
         $this->assign(array(
-            'value' => $xian,
+            'value' => $value,
+            'xian' => $xian,
         ));
         $this->display();
     }
@@ -19,7 +20,7 @@ class RegionController extends Controller {
         $value=C($xian);
         //var_dump($_POST);
         // echo $value;die;
-        echo U('Region/region','value='.$value);
+        echo U('Region/region',array('value'=>$value,'xian'=>$xian));
 
     }
 }
