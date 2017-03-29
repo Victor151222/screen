@@ -128,28 +128,24 @@ i
                 <ul>
                     <li class="menu-item"><a href="<?php echo U('Admin/Map/register')?>" target="main-frame">用户注册</a></li>
                     <li class="menu-item"><a href="<?php echo U('Admin/Map/business')?>" target="main-frame">业务办理</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
+                    <li class="menu-item"><a href="<?php echo U('Admin/Subcribe/subcribe')?>" target="main-frame">业务预约量录入</a></li>
+                    <li class="menu-item"><a href="#" target="main-frame">驾校信息录入</a></li>
+
                 </ul>
             </li>
 
             <li class="explode" key="04_order" name="menu">
             第二屏
                 <ul>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
+                    <li class="menu-item"><a href="#" target="main-frame">用户反馈量录入</a></li>
+
                 </ul>
             </li>
             <li class="explode" key="08_members" name="menu">
             第三屏
                 <ul>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">#</a></li>
+                    <li class="menu-item"><a href="<?php echo U('Admin/Worker/user')?>" target="main-frame">员工注册</a></li>
+                    <li class="menu-item"><a href="<?php echo U('Admin/Worker/userdata')?>" target="main-frame">员工工作数据录入</a></li>
                 </ul>
             </li>
         </ul>

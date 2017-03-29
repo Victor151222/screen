@@ -47,12 +47,29 @@ class BusinessController extends Controller {
                     'a.category' => array('eq', '违法处理业务'),
                 ))->group('a.bcategory')
                 ->select();
+            $dat4 = $reg->alias('a')
+                ->field('sum(a.bdata)')
+                ->join('LEFT JOIN __REGION__ b ON a.rid = b.rid')
+                ->where(array(
+                    'a.category' => array('eq', '机动车业务'),
+                ))->select();
+            $dat5 = $reg->alias('a')
+                ->field('sum(a.bdata)')
+                ->join('LEFT JOIN __REGION__ b ON a.rid = b.rid')
+                ->where(array(
+                    'a.category' => array('eq', '驾驶证业务'),
+                ))->select();
+            $dat6 = $reg->alias('a')
+                ->field('sum(a.bdata)')
+                ->join('LEFT JOIN __REGION__ b ON a.rid = b.rid')
+                ->where(array(
+                    'a.category' => array('eq', '违法处理业务'),
+                ))->select();
         }else {
             $dat1 = $reg->alias('a')
                 ->field('sum(a.bdata)')
                 ->join('LEFT JOIN __REGION__ b ON a.rid = b.rid')
                 ->where(array(
-                    'b.rname' => array('eq', $xian),
                     'a.category' => array('eq', '机动车业务'),
                 ))->group('a.bcategory')
                 ->select();

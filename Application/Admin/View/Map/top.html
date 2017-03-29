@@ -121,8 +121,8 @@
     <div id="submenu-div">
         <ul>
             <li><a href="<?php echo U('Home/China/china')?>" target="_blank">第一屏</a></li>
-            <li><a href="#" target="_blank">第二屏</a></li>
-            <li><a href="#" target="_blank">第三屏</a></li>
+            <li><a href="<?php echo U('Home/Enroll/index')?>" target="_blank">第二屏</a></li>
+            <li><a href="<?php echo U('Home/Work/index')?>" target="_blank">第三屏</a></li>
             <li><a href="#" target="main-frame">个人设置</a></li>
             <li style="border-right:none"><a href="#">刷新</a></li>
         </ul>
