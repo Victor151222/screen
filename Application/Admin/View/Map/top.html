@@ -135,8 +135,8 @@
 <div id="menu-div">
     <ul>
         <li class="fix-spacel">&nbsp;</li>
-        <li><a href="<?php echo U('Home/China/china')?>" target="_blank">第一屏</a></li>
-        <li><a href="#" target="main-frame">第二屏</a></li>
+        <li><a href="<?php echo U('Home/Subcribe/index')?>" target="_blank">第一屏</a></li>
+        <li><a href="<?php echo U('Home/Subcribe/data')?>" target="_blank">第一屏</a></li>
         <li><a href="#" target="main-frame">第三屏</a></li>
         <li><a href="#" target="main-frame">#</a></li>
         <li><a href="#" target="main-frame">#</a></li>
