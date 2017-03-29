@@ -137,7 +137,7 @@ i
             <li class="explode" key="04_order" name="menu">
             第二屏
                 <ul>
-                    <li class="menu-item"><a href="#" target="main-frame">用户反馈量录入</a></li>
+                    <li class="menu-item"><a href="<?php echo U('Admin/Feedback/index')?>" target="main-frame">用户反馈量录入</a></li>
 
                 </ul>
             </li>
