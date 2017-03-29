@@ -41,5 +41,33 @@ class EnrollController extends Controller {
         $this->display();
     }
 
+    public function feedbackhandle(){
+        $data = array();
+        $model = D('feedback');
+        //处理ajax请求
+        if(I('post.month')){
+            $month = (int)I('post.month');
+            $where = array('month'=>$month);
+            $data[] = $model->field('category.categories as category,category.id as id,SUM(feedback.data) as data')->join('category on category.id=feedback.fid')->where($where)->group('category.id,category.categories')->select();
+            $data[] = $model->field('category.categories as category,category.id as id,SUM(feedback.data) as data')->join('category on category.id=feedback.fid')->where(array('ftype'=>'已回复','month'=>$month))->group('category.id,category.categories')->select();
+            $data[] = $model->field('category.categories as category,category.id as id,SUM(feedback.data) as data')->join('category on category.id=feedback.fid')->where(array('ftype'=>'未回复','month'=>$month))->group('category.id,category.categories')->select();
+        }
+        if(!I('post.month')){
+            //累计数据
+            $data[] = $model->field('category.categories as category,category.id as id,SUM(feedback.data) as data')->join('category on category.id=feedback.fid')->group('category.id,category.categories')->select();
+            $data[] = $model->field('category.categories as category,category.id as id,SUM(feedback.data) as data')->join('category on category.id=feedback.fid')->where(array('ftype'=>'已回复'))->group('category.id,category.categories')->select();
+            $data[] = $model->field('category.categories as category,category.id as id,SUM(feedback.data) as data')->join('category on category.id=feedback.fid')->where(array('ftype'=>'未回复'))->group('category.id,category.categories')->select();
+                /*当月的数据*/
+            //获取查询的年份，默认是2017年
+            $month = (int)date('m',time());
+            $where = array('month'=>$month);
+
+            $data[] = $model->field('category.categories as category,category.id as id,SUM(feedback.data) as data')->join('category on category.id=feedback.fid')->where($where)->group('category.id,category.categories')->select();
+            $data[] = $model->field('category.categories as category,category.id as id,SUM(feedback.data) as data')->join('category on category.id=feedback.fid')->where(array('ftype'=>'已回复','month'=>$month))->group('category.id,category.categories')->select();
+            $data[] = $model->field('category.categories as category,category.id as id,SUM(feedback.data) as data')->join('category on category.id=feedback.fid')->where(array('ftype'=>'未回复','month'=>$month))->group('category.id,category.categories')->select();
+        }
+        echo json_encode($data);
+    }
+
     
 }
