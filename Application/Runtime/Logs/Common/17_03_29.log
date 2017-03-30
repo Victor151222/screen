@@ -154,3 +154,195 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
 ERR: 无法加载模块:Public
 
+[ 2017-03-29T16:21:11+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:21:28+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:33:41+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:36:38+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:36:45+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:36:49+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:46:16+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:48:00+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:48:49+08:00 ] ::1 /screen/Public/Admin/images/skin-ocean.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:49:15+08:00 ] ::1 /screen/Public/Admin/images/skin-ocean.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:49:28+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:49:47+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:49:51+08:00 ] ::1 /screen/Public/Admin/images/skin-ocean.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T16:50:08+08:00 ] ::1 /screen/Public/Admin/images/skin-ocean.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T19:21:21+08:00 ] ::1 /screen/Enroll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Enroll
+
+[ 2017-03-29T19:21:27+08:00 ] ::1 /screen/Enroll/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Enroll
+
+[ 2017-03-29T19:38:58+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T19:39:16+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T19:47:53+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T19:48:31+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T19:49:25+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T19:50:10+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T19:53:29+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T19:54:21+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T20:21:54+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T20:23:58+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T20:24:02+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T20:42:11+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T20:55:03+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T20:55:04+08:00 ] ::1 /screen/Public/Admin/images/skin-blue.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T20:55:09+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-29T20:56:10+08:00 ] ::1 /screen/Public/Admin/mages/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+

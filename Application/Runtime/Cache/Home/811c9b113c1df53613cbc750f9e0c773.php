@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>累计数据展示</title>
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/screen/Public/Admin/css/bootstrap.css">
 </head>
 <body>
         <div id="main" style="height: 700px;width: 100%;"></div>
 </body>
-<script src="__PUBLIC__/Home/js/echarts.min.js"></script>
-<!-- <script src="__PUBLIC__/Home/js/cq/chongqing.js"></script> -->
-<script src="__PUBLIC__/Home/js/chongqing.js"></script>
+<script src="/screen/Public/Home/js/echarts.min.js"></script>
+<!-- <script src="/screen/Public/Home/js/cq/chongqing.js"></script> -->
+<script src="/screen/Public/Home/js/chongqing.js"></script>
 
 <script>
 /*科目一信息*/
