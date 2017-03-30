@@ -27,13 +27,46 @@
         dataType:"json",
         success : function(data)
         {
-            for(var i=0;i<data['dat1'].length;i++){
-                names1.push(data['dat1'][i]);    //挨个取出类别并填入类别数组
+            function contains1(obj) {
+                var i = data['dat1']['rid'].length;
+                while (i--) {
+                    if (data['dat1']['rid'][i] === obj) {
+                        return data['dat1']['sum(a.rdata)'][i];
+                    }
+                }
+                return false;
             }
-            for(var i=0;i<data['tes1'].length;i++){
-                names2.push(data['tes1'][i]);    //挨个取出类别并填入类别数组
+
+            function contains2(obj) {
+                var i = data['tes1']['rid'].length;
+                while (i--) {
+                    if (data['tes1']['rid'][i] === obj) {
+                        return data['tes1']['sum(a.rdata)'][i];
+                    }
+                }
+                return false;
             }
-            console.log(data['value']);
+
+
+            (contains1("1")) ? names1.push(contains1("1")) : names1.push(0);
+            (contains1("2")) ? names1.push(contains1("2")) : names1.push(0);
+            (contains1("3")) ? names1.push(contains1("3")) : names1.push(0);
+            (contains1("4")) ? names1.push(contains1("4")) : names1.push(0);
+
+
+
+            (contains2("5")) ? names2.push(contains2("5")) : names2.push(0);
+            (contains2("6")) ? names2.push(contains2("6")) : names2.push(0);
+            (contains2("7")) ? names2.push(contains2("7")) : names2.push(0);
+            (contains2("8")) ? names2.push(contains2("8")) : names2.push(0);
+            (contains2("9")) ? names2.push(contains2("9")) : names2.push(0);
+            (contains2("10")) ? names2.push(contains2("10")) : names2.push(0);
+            (contains2("11")) ? names2.push(contains2("11")) : names2.push(0);
+            (contains2("12")) ? names2.push(contains2("12")) : names2.push(0);
+            (contains2("13")) ? names2.push(contains2("13")) : names2.push(0);
+            (contains2("14")) ? names2.push(contains2("14")) : names2.push(0);
+
+            console.log(names2);
 
 
 
@@ -136,7 +169,7 @@
                 xAxis : [
                     {
                         type : 'category',
-                        data : ['学员用户', '新车车主用户', '窗口用户', '窗口用户'],
+                        data : ['学员用户', '新车车主用户', '窗口用户', '车驾用户'],
                         axisTick: {
                             alignWithLabel: true
                         }
@@ -180,7 +213,7 @@
                 xAxis : [
                     {
                         type : 'category',
-                        data : ['其他', '医院', '学校', '安监部门', '教育行政部门', '检测站', '汽车销售商家','道路运输企业','道路运输管理部门','驾驶培训企业'],
+                        data : ['医院', '学校', '安监部门', '教育行政部门', '检测站', '汽车销售商家','道路运输企业','道路运输管理部门','驾驶培训企业','其他'],
                         axisTick: {
                             alignWithLabel: true
                         },

@@ -38,10 +38,10 @@ class MapController extends Controller {
     }
     public function register() {
 
-                if(IS_POST)
+        if(IS_POST)
         {
 
-            $model = D('register');
+            $model = D('Home/Register');
 
             if($model->create(I('post.'), 1))
             {
@@ -64,10 +64,11 @@ class MapController extends Controller {
     }
     public function business() {
 
+
         if(IS_POST)
         {
 
-            $model = D('business');
+            $model = D('Home/Business');
 
             if($model->create(I('post.'), 1))
             {
@@ -87,5 +88,6 @@ class MapController extends Controller {
             $this->error($error);
         }
         $this->display();
+
     }
 }

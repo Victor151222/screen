@@ -34,21 +34,66 @@
         dataType:"json",
         success : function(data)
         {
-            console.log(data['value']);
-            console.log(data);
-            for(var i=0;i<data['dat1'].length;i++){
-                names1.push(data['dat1'][i]);    //挨个取出类别并填入类别数组
-            }
-            for(var i=0;i<data['dat2'].length;i++){
-                names2.push(data['dat2'][i]);    //挨个取出类别并填入类别数组
-            }
-            for(var i=0;i<data['dat3'].length;i++){
-                names3.push(data['dat3'][i]);    //挨个取出类别并填入类别数组
+            function contains1(obj) {
+                var i = data['dat1']['rid'].length;
+                while (i--) {
+                    if (data['dat1']['rid'][i] === obj) {
+                        return data['dat1']['sum(a.bdata)'][i];
+                    }
+                }
+                return false;
             }
 
-            console.log(names1);
+            function contains2(obj) {
+                var i = data['dat2']['rid'].length;
+                while (i--) {
+                    if (data['dat2']['rid'][i] === obj) {
+                        return data['dat2']['sum(a.bdata)'][i];
+                    }
+                }
+                return false;
+            }
+            function contains3(obj) {
+                var i = data['dat3']['rid'].length;
+                while (i--) {
+                    if (data['dat3']['rid'][i] === obj) {
+                        return data['dat3']['sum(a.bdata)'][i];
+                    }
+                }
+                return false;
+            }
+            console.log(data['value']);
+            console.log(data['dat1']['rid']);
+            (contains1("18")) ? names1.push(contains1("18")) : names1.push(0);
+            (contains1("19")) ? names1.push(contains1("19")) : names1.push(0);
+            (contains1("20")) ? names1.push(contains1("20")) : names1.push(0);
+            (contains1("21")) ? names1.push(contains1("21")) : names1.push(0);
+            (contains1("22")) ? names1.push(contains1("22")) : names1.push(0);
+            (contains1("23")) ? names1.push(contains1("23")) : names1.push(0);
+            (contains1("24")) ? names1.push(contains1("24")) : names1.push(0);
+            (contains1("25")) ? names1.push(contains1("25")) : names1.push(0);
+
+
+
+            (contains2("26")) ? names2.push(contains2("26")) : names2.push(0);
+            (contains2("27")) ? names2.push(contains2("27")) : names2.push(0);
+            (contains2("28")) ? names2.push(contains2("28")) : names2.push(0);
+            (contains2("29")) ? names2.push(contains2("29")) : names2.push(0);
+            (contains2("30")) ? names2.push(contains2("30")) : names2.push(0);
+            (contains2("31")) ? names2.push(contains2("31")) : names2.push(0);
+            (contains2("32")) ? names2.push(contains2("32")) : names2.push(0);
+            (contains2("33")) ? names2.push(contains2("33")) : names2.push(0);
+            (contains2("34")) ? names2.push(contains2("34")) : names2.push(0);
+            (contains2("35")) ? names2.push(contains2("35")) : names2.push(0);
+            (contains2("36")) ? names2.push(contains2("36")) : names2.push(0);
+
+
+            (contains3("37")) ? names3.push(contains3("37")) : names3.push(0);
+            (contains3("37")) ? names3.push(contains3("38")) : names3.push(0);
+
+
+
             console.log(names2);
-            console.log(names3);
 
             var chart = echarts.init(document.getElementById('main'));
 chart.setOption({
@@ -139,7 +184,7 @@ option5 = {
     xAxis : [
         {
             type : 'category',
-            data : ['变更车主联系方式', '换领机动车号牌', '换领机动车行驶证', '机动车检验预约', '补换领机动车检验合格标志', '补领机动车号牌', '补领机动车行驶证','预选机动车号牌'],
+            data : ['变更车主联系方式', '换领机动车号牌', '换领机动车行驶证', '机动车检查预约', '补换领机动车检验合格标志', '补领机动车号牌', '补领机动车行驶证','预选机动车号牌'],
             axisTick: {
                 alignWithLabel: true
             },
@@ -231,7 +276,7 @@ option7 = {
         subtext: '纯属虚构',
         x:'center'
     },
-    color: ['#3398DB'],
+    color: ['#3398DB','#B5C334'],
     tooltip : {
         trigger: 'axis',
         axisPointer : {            // 坐标轴指示器，坐标轴触发有效

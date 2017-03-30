@@ -4,11 +4,11 @@ $(function(){
 		// 为下拉框绑定change事件
         $('select').eq(0).change(function(){
              if($(this).context.value=='个人用户'){
-                 select="<option value=''>--请选择--</option><option value='车驾用户'>车驾用户</option><option value='学员用户'>学员用户</option><option value='新车车主用户'>新车车主用户</option><option value='窗口用户''>窗口用户</option>"; 
+                 select="<option value=''>--请选择--</option><option value='车驾用户'>车驾用户</option><option value='学员用户'>学员用户</option><option value='新车车主用户'>新车车主用户</option><option value='窗口用户''>窗口用户</option>";
                  $('select').eq(1).html(select);
              }
              if($(this).context.value=='单位用户'){
-                select="<option value=''>--请选择--</option><option value='道路运输企业'>道路运输企业</option><option value='教育行政部门'>教育行政部门</option><option value='道路运输管理部门'>道路运输管理部门</option><option value='驾驶培训企业'>窗口用户</option><option value='汽车销售商家'>汽车销售商家</option><option value='安监部门'>安监部门</option><option value='学校'>学校</option><option value='医院'>医院</option><option value='其他'>其他</option><option value='检测站'>检测站</option>"; 
+                select="<option value=''>--请选择--</option><option value='道路运输企业'>道路运输企业</option><option value='教育行政部门'>教育行政部门</option><option value='道路运输管理部门'>道路运输管理部门</option><option value='驾驶培训企业'>窗口用户</option><option value='汽车销售商家'>汽车销售商家</option><option value='安监部门'>安监部门</option><option value='学校'>学校</option><option value='医院'>医院</option><option value='其他'>其他</option><option value='检测站'>检测站</option>";
                 $('select').eq(1).html(select);
              }
         });
