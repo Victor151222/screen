@@ -28,12 +28,10 @@ class EnrollController extends Controller {
     public function businesshandle(){
         $data = array();
         $model = D('business');
-        $driver = $model->field('bcategory,SUM(bdata) as bdata')->where(array('category'=>'驾驶证业务'))->group('bcategory')->select();
-        $data[] = $driver;
-        $car = $model->field('bcategory,SUM(bdata) as bdata')->where(array('category'=>'机动车业务'))->group('bcategory')->select();
-        $data[] = $car;
-        $illegal = $model->field('bcategory,SUM(bdata) as bdata')->where(array('category'=>'违法处理业务'))->group('bcategory')->select();
-        $data[] = $illegal;
+        // $driver = $model->field('bcategory,SUM(bdata) as bdata')->where(array('category'=>'驾驶证业务'))->group('bcategory')->select();
+        $data[] = $model->field('flag.id as id,flag.name as name,SUM(business.bdata) as data')->join('flag on flag.name=business.bcategory')->where(array('category'=>'驾驶证业务'))->group('flag.name,flag.id')->select();
+        $data[] = $model->field('flag.id as id,flag.name as name,SUM(business.bdata) as data')->join('flag on flag.name=business.bcategory')->where(array('category'=>'机动车业务'))->group('flag.name,flag.id')->select();
+        $data[] = $model->field('flag.id as id,flag.name as name,SUM(business.bdata) as data')->join('flag on flag.name=business.bcategory')->where(array('category'=>'违法处理业务'))->group('flag.name,flag.id')->select();
         echo json_encode($data);
     }
 
