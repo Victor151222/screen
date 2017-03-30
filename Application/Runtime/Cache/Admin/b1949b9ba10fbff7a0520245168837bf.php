@@ -129,7 +129,7 @@ i
                     <li class="menu-item"><a href="<?php echo U('Admin/Map/register')?>" target="main-frame">用户注册</a></li>
                     <li class="menu-item"><a href="<?php echo U('Admin/Map/business')?>" target="main-frame">业务办理</a></li>
                     <li class="menu-item"><a href="<?php echo U('Admin/Subcribe/subcribe')?>" target="main-frame">业务预约量录入</a></li>
-                    <li class="menu-item"><a href="#" target="main-frame">驾校信息录入</a></li>
+                    <li class="menu-item"><a href="<?php echo U('Admin/Driver/index')?>" target="main-frame">驾校信息录入</a></li>
 
                 </ul>
             </li>
@@ -137,7 +137,7 @@ i
             <li class="explode" key="04_order" name="menu">
             第二屏
                 <ul>
-                    <li class="menu-item"><a href="#" target="main-frame">用户反馈量录入</a></li>
+                    <li class="menu-item"><a href="<?php echo U('Admin/Feedback/index')?>" target="main-frame">用户反馈量录入</a></li>
 
                 </ul>
             </li>
