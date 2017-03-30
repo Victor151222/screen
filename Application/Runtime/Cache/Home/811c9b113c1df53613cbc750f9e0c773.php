@@ -238,8 +238,9 @@ chart.setOption({
     ],
     animation: false
 });
-chart.on('click',function(params){
-    console.log(params);
-})
+
+chart.on('click',function(param){
+     console.log(param);
+});
 </script>
 </html>
